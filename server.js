@@ -24,7 +24,7 @@ app.use(express.json()); // To parse JSON request bodies
 app.use(express.urlencoded({ extended: true })); // To parse URL-encoded data
 app.use(cors(
   {
-    origin : ["http://localhost:3000" , "https://xpiria.onrender.com"]
+    origin : ["http://localhost:3000" , "https://experience-share.onrender.com/"]
   })
 );
 
